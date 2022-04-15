@@ -5,7 +5,8 @@ export const Sidebar = ({ countriesLst, countCities, listCities, showAll }) => {
 	const style = {
 		backgroundColor: '#536dfe',
 		color: 'white',
-		padding: '5px, 15px',
+		borderRadius: '15px',
+		fontSize: '16px',
 	};
 
 	return (
@@ -23,7 +24,7 @@ export const Sidebar = ({ countriesLst, countCities, listCities, showAll }) => {
 					style={{
 						color: 'black',
 						listStyleType: 'none',
-						padding: '10px 25px',
+						fontSize: '12px',
 						margin: '5px',
 					}}>
 					{countriesLst?.map((country, i) => (
